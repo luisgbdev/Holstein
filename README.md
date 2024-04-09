@@ -1,12 +1,9 @@
 # G16_holstein
 
+Proyecto: Desarrollo de Herramienta Web de Gestión para Restaurante Holstein
 
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+El restaurante Holstein, especializado en carnes de alta calidad, está buscando mejorar su eficiencia operativa y la experiencia del cliente a través de una herramienta web de gestión integral. Este proyecto involucra el diseño e implementación de un sistema que abarque desde la gestión de pedidos y reservas hasta la administración del inventario y la caja. A continuación, se detallan los componentes y tecnologías clave que se utilizarán en este proyecto:
+(#editing-this-readme)!
 
 ## Add your files
 
