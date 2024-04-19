@@ -1,13 +1,18 @@
 CREATE TABLE Usuarios (
                           ID_usuario INT PRIMARY KEY,
                           Nombre VARCHAR(100),
-                          Rol VARCHAR(50)
+                          Rol VARCHAR(50),
+                          telefono int (9),
+                          correo VARCHAR(50)
 );
 
 CREATE TABLE Camareros (
                            ID_camarero INT PRIMARY KEY,
                            Nombre VARCHAR(100),
                            ID_usuario INT,
+                           salario INT,
+                           turno VARCHAR(50) ,
+                           horario_trabajo VARCHAR(50),
                            FOREIGN KEY (ID_usuario) REFERENCES Usuarios(ID_usuario)
 );
 
@@ -15,15 +20,9 @@ CREATE TABLE Mesas (
                        ID_mesa INT PRIMARY KEY,
                        Numero INT,
                        Capacidad INT,
+                       Disponibilidad VARCHAR(50),
                        ID_camarero INT,
                        FOREIGN KEY (ID_camarero) REFERENCES Camareros(ID_camarero)
-);
-
-CREATE TABLE Comandas (
-                          ID_comanda INT PRIMARY KEY,
-                          ID_mesa INT,
-                          Fecha DATETIME,
-                          FOREIGN KEY (ID_mesa) REFERENCES Mesas(ID_mesa)
 );
 
 CREATE TABLE Platos (
@@ -36,12 +35,22 @@ CREATE TABLE Menus (
                        ID_menu INT PRIMARY KEY,
                        Nombre VARCHAR(100),
                        Precio int,
+                       tipo VARCHAR(50),
                        Descripcion TEXT
+);
+
+CREATE TABLE Comandas (
+                          ID_comanda INT PRIMARY KEY,
+                          ID_mesa INT,
+                          ID_menu INT,
+                          Fecha DATETIME,
+                          FOREIGN KEY (ID_mesa) REFERENCES Mesas(ID_mesa),
+                          FOREIGN KEY (ID_menu) REFERENCES Menus(ID_menu)
 );
 
 CREATE TABLE Productos (
                            ID_producto INT PRIMARY KEY,
-                           Nombre VARCHAR(100),
+                           Tipo VARCHAR(100),
                            Descripcion TEXT,
                            Stock INT
 );
