@@ -34,7 +34,9 @@ CREATE TABLE Platos (
 
 CREATE TABLE Menus (
                        ID_menu INT PRIMARY KEY,
-                       Nombre VARCHAR(100)
+                       Nombre VARCHAR(100),
+                       Precio int,
+                       Descripcion TEXT
 );
 
 CREATE TABLE Productos (
