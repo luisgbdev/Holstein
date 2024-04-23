@@ -16,6 +16,15 @@ CREATE TABLE Camareros (
                            FOREIGN KEY (ID_usuario) REFERENCES Usuarios(ID_usuario)
 );
 
+CREATE TABLE Cocinero(
+    id_usuario INT,
+    salario DECIMAL(10,2),
+    fecha_contratacion DATE NOT NULL,
+    disponible BOOLEAN DEFAULT TRUE,
+    PRIMARY KEY (id_usuario),
+    FOREIGN KEY(id_usuario) REFERENCES USUARIOS(id)
+);
+
 CREATE TABLE Mesas (
                        ID_mesa INT PRIMARY KEY,
                        Numero INT,
@@ -28,7 +37,9 @@ CREATE TABLE Mesas (
 CREATE TABLE Platos (
                         ID_plato INT PRIMARY KEY,
                         Nombre VARCHAR(100),
-                        Descripcion TEXT
+                        Descripcion TEXT,
+                        id_chef int,
+                        FOREIGN KEY (id_chef) REFERENCES CHEF(id_usuario)
 );
 
 CREATE TABLE Menus (
