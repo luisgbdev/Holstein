@@ -1,0 +1,5 @@
+ID_camarero,Nombre,ID_usuario,salario,turno,horario_trabajo
+1,Luis,2,2000,mañana,8:00-16:00
+2,Ana,3,2200,tarde,16:00-24:00
+3,Pedro,4,2100,noche,24:00-8:00
+4,Sofía,6,2300,mañana,8:00-16:00

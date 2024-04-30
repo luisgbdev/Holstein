@@ -1,0 +1,10 @@
+
+ID_mesa,Numero,Capacidad,Disponibilidad,ID_camarero
+1,1,4,disponible,1
+2,2,6,ocupada,2
+3,3,2,disponible,
+4,4,8,ocupada,
+5,5,2,disponible,3
+6,6,4,ocupada,4
+7,7,6,disponible,
+8,8,2,ocupada,
