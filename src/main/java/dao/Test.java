@@ -1,4 +1,4 @@
-package g16_holstein;
+package dao;
 
 public class Test {
 	private int id;

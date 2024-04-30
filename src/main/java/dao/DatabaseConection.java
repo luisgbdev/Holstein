@@ -1,4 +1,4 @@
-package g16_holstein;
+package dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
