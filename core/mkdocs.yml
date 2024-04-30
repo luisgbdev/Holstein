@@ -1,5 +1,5 @@
-site_name: NOMBRE
-repo_name: NOMBRE
+site_name: holstein
+repo_name: holstein
 site_dir: public
 docs_dir: ../docs
 theme:
@@ -67,10 +67,14 @@ plugins:
       two_columns_level: 3
       output_path: document.pdf
 nav:
-  - Presentació: index.md
-  - Documentació:
-      - Apartado: documentacio/index.md
-      - Sprint 1: 
+  - Holstein: index.md
+  - Carta:
+      - Entrantes: documentacio/index.md
+      - Plato principal: 
         - Índex: documentacio/sprint1/test.md
-  - Teoria GIT:
+      - Postres:
+        -Índex: documentacio/sprint2/test.md
+      - Bebida:
+        -Índex: documentacio/sprint2/test.md
+  - Reseñas:
       - Git: git/git.md
