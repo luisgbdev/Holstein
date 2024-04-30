@@ -72,5 +72,7 @@ nav:
       - Apartado: documentacio/index.md
       - Sprint 1: 
         - Índex: documentacio/sprint1/test.md
+      - Sprint 2:
+        -Índex: documentacio/sprint2/test.md
   - Teoria GIT:
       - Git: git/git.md
