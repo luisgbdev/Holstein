@@ -1,0 +1,7 @@
+ID_usuario,Nombre,Rol,telefono,correo
+1,Alfonso,Cliente,123456789,alfonso@example.com
+2,Luis,Camarero,987654321,luis@example.com
+3,Ana,Camarero,654321987,ana@example.com
+4,Pedro,Camarero,321987654,pedro@example.com
+5,Pablo,Cocinero,789456123,pablo@example.com
+6,Sofía,Camarero,456123789,sofia@example.com
