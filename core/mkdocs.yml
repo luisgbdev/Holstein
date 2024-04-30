@@ -1,5 +1,5 @@
-site_name: NOMBRE
-repo_name: NOMBRE
+site_name: holstein
+repo_name: holstein
 site_dir: public
 docs_dir: ../docs
 theme:
