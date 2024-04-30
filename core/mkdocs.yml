@@ -67,12 +67,14 @@ plugins:
       two_columns_level: 3
       output_path: document.pdf
 nav:
-  - Presentació: index.md
-  - Documentació:
-      - Apartado: documentacio/index.md
-      - Sprint 1: 
+  - Holstein: index.md
+  - Carta:
+      - Entrantes: documentacio/index.md
+      - Plato principal: 
         - Índex: documentacio/sprint1/test.md
-      - Sprint 2:
+      - Postres:
         -Índex: documentacio/sprint2/test.md
-  - Teoria GIT:
+      - Bebida:
+        -Índex: documentacio/sprint2/test.md
+  - Reseñas:
       - Git: git/git.md
