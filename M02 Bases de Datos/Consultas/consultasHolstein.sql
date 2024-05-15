@@ -70,4 +70,34 @@ JOIN MenuPlato ON Platos.ID_plato = MenuPlato.ID_plato
 JOIN Menus ON MenuPlato.ID_menu = Menus.ID_menu
 WHERE Menus.Nombre = 'nombre_menu_deseado';
 
+-- Obtener todos los platos de un tipo específico
+SELECT * FROM Platos WHERE tipo = 'tipo_deseado';
+
+-- Obtener plato separado por ingredientes
+SELECT Platos.Nombre AS Nombre_plato, GROUP_CONCAT(Ingredientes.Nombre SEPARATOR ', ') AS Ingredientes
+FROM Platos
+JOIN PlatoIngredientes ON Platos.ID_plato = PlatoIngredientes.ID_plato
+JOIN Ingredientes ON PlatoIngredientes.ID_ingrediente = Ingredientes.ID_ingrediente
+GROUP BY Platos.ID_plato;
+
+-- Obtener precio platos
+SELECT Platos.Nombre AS Nombre_plato, PreciosPlatos.Precio
+FROM Platos
+JOIN PreciosPlatos ON Platos.ID_plato = PreciosPlatos.ID_plato;
+
+-- Obtener precio total
+SELECT SUM(Platos.Precio * ComandaPlato.Cantidad) AS Precio_total
+FROM ComandaPlato
+JOIN Platos ON ComandaPlato.ID_plato = Platos.ID_plato
+WHERE ComandaPlato.ID_comanda = 'id_comanda_deseado';
+
+-- Obtener detalles menú
+
+SELECT * FROM Menus WHERE ID_menu = 'id_menu_deseado';
+
+-- Obtener detalles mesa
+
+SELECT * FROM Mesas WHERE ID_mesa = 'id_mesa_deseado';
+
+
 
