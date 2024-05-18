@@ -67,14 +67,22 @@ plugins:
       two_columns_level: 3
       output_path: document.pdf
 nav:
-  - Holstein: index.md
-  - Carta:
-      - Entrantes: documentacio/index.md
-      - Plato principal: 
-        - Índex: documentacio/sprint1/test.md
-      - Postres:
-        -Índex: documentacio/sprint2/test.md
-      - Bebida:
-        -Índex: documentacio/sprint2/test.md
-  - Reseñas:
-      - Git: git/git.md
+  - Introducción: index.md
+  - Sistemas:
+      - Docker: sistemas/docker.md
+  - BBDD:
+      - Diagramas: bbdd/diagramas.md
+      - Script Inicial: bbdd/script_inicial.md
+      - Planteamientos de Funciones: bbdd/planteamientos.md
+      - Funciones: bbdd/funciones.md
+  - Programación:
+      - Conección con Bases de Datos: programacion/conexion_bbdd.md
+      - Carga de Datos a la BBDD: programacion/carga_datos.md
+      - Uso de Funciones en Java: programacion/uso_funciones_java.md
+  - Entornos:
+      - Casos de Uso: entorns/casos_uso.md
+      - Diagramas de Clases: entorns/Diagramas-clases_Holstein.png
+      - MkDocs: entorns/mkdocs.md
+  - Utils:
+      - Git: utils/git.md
+      - Recursos de Ayuda: utils/recursos_docs.md
