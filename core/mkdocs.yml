@@ -1,9 +1,9 @@
-site_name: holstein
-repo_name: holstein
+site_name: Holstein
+repo_name: git@gitlab.com:dax_mesapp_g16/g16_holstein.git
 site_dir: public
 docs_dir: ../docs
 theme:
-  language: ca
+  language: es
   name: material
   features:
     - navigation.instant
@@ -76,7 +76,7 @@ nav:
       - Planteamientos de Funciones: bbdd/planteamientos.md
       - Funciones: bbdd/funciones.md
   - Programación:
-      - Conección con Bases de Datos: programacion/conexion_bbdd.md
+      - Conexión con Bases de Datos: programacion/conexion_bbdd.md
       - Carga de Datos a la BBDD: programacion/carga_datos.md
       - Uso de Funciones en Java: programacion/uso_funciones_java.md
   - Entornos:
