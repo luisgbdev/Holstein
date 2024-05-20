@@ -31,9 +31,9 @@ public class MesappController {
      *  6. Duplica el método "postXXX" dentro de "MesappService" reemplazando "XXX" igual que el paso 2
      *  7. Ya puedes llamar a la url: "http://localhost:8081/mesapp/XXX (donde "XXX" es el mismo que el paso 2
      */
-    @PostMapping("/mesapp/XXX")
-    public ResponseEntity postXXX(@RequestBody Body body) {
-        return mesappService.postXXX(option, body);
+ @PostMapping("/mesapp/XXX")
+public ResponseEntity postXXX(@PathVariable("id") int option, @RequestBody Body body) {
+    return mesappService.postXXX(option, body);
     }
 
 }
