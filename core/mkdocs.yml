@@ -76,7 +76,7 @@ nav:
       - Planteamientos de Funciones: bbdd/planteamientos.md
       - Funciones: bbdd/funciones.md
   - Programación:
-      - Conección con Bases de Datos: programacion/conexion_bbdd.md
+      - Conexión con Bases de Datos: programacion/conexion_bbdd.md
       - Carga de Datos a la BBDD: programacion/carga_datos.md
       - Uso de Funciones en Java: programacion/uso_funciones_java.md
   - Entornos:
