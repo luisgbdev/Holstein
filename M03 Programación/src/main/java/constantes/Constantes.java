@@ -84,14 +84,14 @@ public class Constantes {
     public static final String LISTAR_CAMAREROS_MESAS = "SELECT c.nombre, c.apellidos, m.num_mesa FROM camarero c LEFT JOIN cliente_mesa cm ON c.id_usuario = cm.id_usuario LEFT JOIN mesa m ON cm.num_mesa = m.num_mesa";
     // creacion de admin
     public static final String CREAR_USER_ADMIN = "CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';" +
-            "GRANT ALL PRIVILEGES ON vialacteadesabores.* TO 'admin'@'localhost' WITH GRANT OPTION;" +
+            "GRANT ALL PRIVILEGES ON holstein.* TO 'admin'@'localhost' WITH GRANT OPTION;" +
             "FLUSH PRIVILEGES;";
 
     public static final String CREAR_USER_ENCARGADO = "CREATE USER 'encargado'@'localhost' IDENTIFIED BY 'encargado';" +
-            "GRANT SELECT, INSERT, UPDATE, DELETE ON vialacteadesabores.* TO 'encargado'@'localhost' WITH GRANT OPTION;" +
+            "GRANT SELECT, INSERT, UPDATE, DELETE ON holstein.* TO 'encargado'@'localhost' WITH GRANT OPTION;" +
             "FLUSH PRIVILEGES;";
 
     public static final String CREAR_USER_NORMAL = "CREATE USER 'normal'@'localhost' IDENTIFIED BY 'normal';" +
-            "GRANT SELECT ON vialacteadesabores.* TO 'normal'@'localhost' WITH GRANT OPTION;" +
+            "GRANT SELECT ON holstein.* TO 'normal'@'localhost' WITH GRANT OPTION;" +
             "FLUSH PRIVILEGES;";
 }
