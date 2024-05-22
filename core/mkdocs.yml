@@ -1,14 +1,13 @@
 site_name: Holstein
-repo_name: git@gitlab.com:dax_mesapp_g16/g16_holstein.git
+repo_name: Holstein
 site_dir: public
 docs_dir: ../docs
 theme:
-  language: es
+  language: ca
   name: material
   features:
     - navigation.instant
     - navigation.indexes
-   # - navigation.sections
     - navigation.path
     - header.autohide
     - search.highlight
@@ -69,22 +68,23 @@ plugins:
 nav:
   - Introducción: index.md
   - Sistemas:
-      - Docker: docs/sistemas/docker.md
+    - Docker: docs/sistemas/docker.md
   - BBDD:
-      - Diagramas: docs/bbdd/diagramas.md
-      - Script Inicial: docs/bbdd/script_inicial.md
-      - Planteamientos de Funciones: docs/bbdd/planteamientos.md
-      - Funciones: docs/bbdd/funciones.md
+    - Diagramas: bbdd/diagramas.md
+    - Script Inicial: bbdd/script_inicial.md
+    - Planteamientos de Funciones: bbdd/planteamientos.md
+    - Funciones: bbdd/funciones.md
   - Programación:
-      - Conexión con Bases de Datos: docs/programacion/conexion_bbdd.md
-      - Carga de Datos a la BBDD: docs/programacion/carga_datos.md
-      - Uso de Funciones en Java: docs/programacion/uso_funciones_java.md
+    - Conexión con Bases de Datos: programacion/conexion_bbdd.md
+    - Carga de Datos a la BBDD: programacion/carga_datos.md
+    - Uso de Funciones en Java: programacion/uso_funciones_java.md
   - Entornos:
-      - Casos de Uso: docs/entorns/casos_uso.md
-      - Diagramas de Clases: docs/entorns/Diagramas-clases_Holstein.png
-      - MkDocs: docs/entorns/mkdocs.md
+    - Casos de Uso: entorns/casos_uso.md
+    - Diagramas de Clases: entorns/Diagramas-clases_Holstein.png
+    - MkDocs: entorns/mkdocs.md
   - Utils:
-      - Git: docs/utils/git.md
-      - Recursos de Ayuda: docs/utils/recursos_docs.md
+    - Git: utils/git.md
+    - Recursos de Ayuda: utils/recursos_docs.md
   - Proyecto:
-      - GitLab: [enlace en línea](https://gitlab.com/dax_mesapp_g16/g16_holstein.git)
+    - GitLab:
+        - [enlace en línea](https://gitlab.com/dax_mesapp_g16/g16_holstein.git)
