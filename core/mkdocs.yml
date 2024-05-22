@@ -1,13 +1,14 @@
 site_name: Holstein
-repo_name: Holstein
+repo_name: git@gitlab.com:dax_mesapp_g16/g16_holstein.git
 site_dir: public
 docs_dir: ../docs
 theme:
-  language: ca
+  language: es
   name: material
   features:
     - navigation.instant
     - navigation.indexes
+   # - navigation.sections
     - navigation.path
     - header.autohide
     - search.highlight
@@ -51,8 +52,8 @@ markdown_extensions:
       alternate_style: true
   - toc:                 
       permalink: true
-plugins:
-  - mkdocs-video
+
+
   - search:
       lang: 
         - es
@@ -66,6 +67,7 @@ plugins:
       two_columns_level: 3
       output_path: document.pdf
 nav:
+  nav:
   - Presentació: index.md
   - Documentació:
       - Apartado: documentacio/index.md
@@ -73,7 +75,10 @@ nav:
           - Índex: documentacio/sprint1/test.md
   - Teoria GIT:
       - Git: git/git.md
-  - M01 Sistemas: sistemas.md
+  - M01 Sistemas: 
+      - Apartado: sistemas_docs/sistemas.md
+      - Sistemas:
+          - Docker: sistemas_docs/docker.md 
   - M02 Bases de datos:
       - Apartado: bbdd_docs/bbdd.md
       - Bases de datos: 
@@ -83,5 +88,10 @@ nav:
           - Consultas: bbdd_docs/consultas.md 
   - M03 Programación: pr.md 
   - M04 Lenguaje de Marcas: ldm.md
-  - M05 Entornos de Desarollo : entorns.md 
+  - M05 Entornos de Desarollo :
+      - Apartado: entorns_docs/entorns.md 
+      - Entornos de Desarollo:
+          - Casos de uso: entorns_docs/casosdeuso.md 
+          - Diagrama de clases: entorns_docs/diagramadeclases.md 
+          - Diagrama Entidad-Relación: entorns_docs/diagramaER.md 
 
