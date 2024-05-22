@@ -1,5 +1,5 @@
 
-# Diagrama casos de uso
+# Diagrama de clases Holstein
 
 Este es el diagrama de los casos de uso de nuestra aplicación para el restaurante holstein.
 
