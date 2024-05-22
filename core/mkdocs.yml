@@ -66,25 +66,22 @@ plugins:
       two_columns_level: 3
       output_path: document.pdf
 nav:
-  - Introducción: index.md
-  - Sistemas:
-    - Docker: docs/sistemas/docker.md
-  - BBDD:
-    - Diagramas: bbdd/diagramas.md
-    - Script Inicial: bbdd/script_inicial.md
-    - Planteamientos de Funciones: bbdd/planteamientos.md
-    - Funciones: bbdd/funciones.md
-  - Programación:
-    - Conexión con Bases de Datos: programacion/conexion_bbdd.md
-    - Carga de Datos a la BBDD: programacion/carga_datos.md
-    - Uso de Funciones en Java: programacion/uso_funciones_java.md
-  - Entornos:
-    - Casos de Uso: entorns/casos_uso.md
-    - Diagramas de Clases: entorns/Diagramas-clases_Holstein.png
-    - MkDocs: entorns/mkdocs.md
-  - Utils:
-    - Git: utils/git.md
-    - Recursos de Ayuda: utils/recursos_docs.md
-  - Proyecto:
-    - GitLab:
-        - [enlace en línea](https://gitlab.com/dax_mesapp_g16/g16_holstein.git)
+  - Presentació: index.md
+  - Documentació:
+      - Apartado: documentacio/index.md
+      - Sprint 1: 
+          - Índex: documentacio/sprint1/test.md
+  - Teoria GIT:
+      - Git: git/git.md
+  - M01 Sistemas: sistemas.md
+  - M02 Bases de datos:
+      - Apartado: bbdd_docs/bbdd.md
+      - Bases de datos: 
+          - Script Inicial: bbdd_docs/script.md
+          - Funcions: bbdd_docs/funcions.md  
+          - Procedimientos: bbdd_docs/procedures.md 
+          - Consultas: bbdd_docs/consultas.md 
+  - M03 Programación: pr.md 
+  - M04 Lenguaje de Marcas: ldm.md
+  - M05 Entornos de Desarollo : entorns.md 
+

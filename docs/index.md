@@ -63,7 +63,7 @@ Esperamos que esta documentación sea útil y sirva como guía para entender y u
 
 ## Enlaces Útiles
 
-- [Repositorio en GitHub](https://gitlab.com/dax_mesapp_g16/g16_holstein.git)
+- [Repositorio en GitLab](https://gitlab.com/dax_mesapp_g16/g16_holstein.git)
 
 
 ¡Gracias por tu interés en el proyecto Holstein!
