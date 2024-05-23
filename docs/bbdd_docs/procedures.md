@@ -17,7 +17,7 @@ BEGIN
     JOIN Menus ON Comandas.ID_menu = Menus.ID_menu
     WHERE DATE(Fecha) = p_fecha;
 END //
-
+```  
 
 ## 2. Verificar Disponibilidad de Mesa
 
@@ -65,3 +65,4 @@ BEGIN
         SET p_disponible = FALSE;
     END IF;
 END //
+```  
