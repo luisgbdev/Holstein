@@ -91,7 +91,7 @@ nav:
           - Procedimientos: bbdd_docs/procedures.md 
           - Consultas: bbdd_docs/consultas.md 
   - M03 Programación: pr.md 
-  - M04 Lenguaje de Marcas: ldm.md
+  - M04 Lenguaje de Marcas: lenguaje_docs/lenguajemarcas.md
   - M05 Entornos de Desarollo :
       - Apartado: entorns_docs/entorns.md 
       - Entornos de Desarollo:
