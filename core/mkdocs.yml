@@ -34,6 +34,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+logo: images/icon.png
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -65,15 +66,23 @@ plugins:
       cover_subtitle: Solució exercici
       two_columns_level: 3
       output_path: document.pdf
+
 nav:
   - Presentació: index.md
   - Documentació:
       - Apartado: documentacio/index.md
       - Sprint 1: 
           - Índex: documentacio/sprint1/test.md
+      - Sprint 2: 
+          - Índex: documentacio/sprint2/info3.md
+      - Sprint 3: 
+          - Índex: documentacio/sprint3/test2.md
   - Teoria GIT:
       - Git: git/git.md
-  - M01 Sistemas: sistemas.md
+  - M01 Sistemas: 
+      - Apartado: sistemas_docs/sistemas.md
+      - Sistemas:
+          - Docker: sistemas_docs/docker.md 
   - M02 Bases de datos:
       - Apartado: bbdd_docs/bbdd.md
       - Bases de datos: 
@@ -82,6 +91,12 @@ nav:
           - Procedimientos: bbdd_docs/procedures.md 
           - Consultas: bbdd_docs/consultas.md 
   - M03 Programación: pr.md 
-  - M04 Lenguaje de Marcas: ldm.md
-  - M05 Entornos de Desarollo : entorns.md 
+  - M04 Lenguaje de Marcas: lenguaje_docs/lenguajemarcas.md
+  - M05 Entornos de Desarollo :
+      - Apartado: entorns_docs/entorns.md 
+      - Entornos de Desarollo:
+          - Casos de uso: entorns_docs/casosdeuso.md 
+          - Diagrama de clases: entorns_docs/diagramaclases.md 
+          - Diagrama Entidad-Relación: entorns_docs/diagramaER.md 
+
 

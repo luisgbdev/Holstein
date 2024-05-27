@@ -20,7 +20,7 @@ BEGIN
 
     RETURN resultado;
 END //
-
+```  
 ## 2. Registrar Comanda
 
 La función `RegistrarComanda` registra una nueva comanda en la base de datos y devuelve el ID de la comanda creada.
@@ -47,7 +47,7 @@ BEGIN
    
     RETURN comanda_id;
 END //
-
+```  
 ## 3. Agregar Plato a Comanda
 
 Esta función `AgregarPlatoAComanda` agrega un plato específico a una comanda existente en la base de datos y devuelve el ID del registro creado.
@@ -75,7 +75,7 @@ BEGIN
     RETURN registro_id;
 END //
 
-
+```  
 ## 4. Mostrar Menús Disponibles
 
 La función `MostrarMenusDisponibles` recupera los nombres de todos los menús disponibles en la base de datos y los devuelve como una cadena de texto separada por comas.
@@ -96,3 +96,4 @@ BEGIN
    
     RETURN resultado;
 END //
+```  

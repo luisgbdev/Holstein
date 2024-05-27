@@ -1,5 +1,7 @@
 # Consultas de Usuarios de Holstein
 
+# Consultas de Usuarios de Holstein
+
 A continuación se presentan varias consultas que podrían ser realizadas por usuarios de Holstein para obtener información relevante sobre la gestión de un restaurante:
 
 ```sql
@@ -101,4 +103,4 @@ SELECT * FROM Menus WHERE ID_menu = 'id_menu_deseado';
 
 Obtener detalles mesa
 SELECT * FROM Mesas WHERE ID_mesa = 'id_mesa_deseado';
-
+``` 
