@@ -1,0 +1,21 @@
+ID_producto,Nombre,Descripcion,Stock
+1,Filete de ternera,Filete de ternera,20
+2,Chuletas de cerdo,Chuletas de cerdo,15
+3,Pollo entero,Pollo entero,10
+4,Lomo de cerdo,Lomo de cerdo,18
+5,Hamburguesa de res,Hamburguesa de res,25
+6,Entrecot,Entrecot,15
+7,Chimichurri,Chimichurri,20
+8,Papas fritas,Papas fritas,30
+9,Pechuga de pollo,Pechuga de pollo,12
+10,Arroz,Arroz blanco,25
+11,Ensalada,Ensalada fresca,20
+12,Bife de chorizo,Bife de chorizo,15
+13,Morcilla,Morcilla,18
+14,Entrana,Entrana,20
+15,Avestruz,Avestruz,10
+16,Canguro,Canguro,8
+17,Caimán,Caimán,12
+18,Cebra,Cebra,6
+19,Búfalo,Búfalo,9
+20,Ñandú,Ñandú,7
