@@ -1,0 +1,5 @@
+/* extra.css */
+.md-header__logo img {
+    width:300px; /* Ajusta este valor según sea necesario */
+    height: auto; /* Mantiene la proporción del logo */
+}

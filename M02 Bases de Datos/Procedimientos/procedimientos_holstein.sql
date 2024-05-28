@@ -15,6 +15,7 @@ END //
 # 2. Verificar la disponibilidad de una mesa en un horario específico
 DELIMITER //
 
+
 CREATE PROCEDURE VerificarDisponibilidadMesa(IN p_id_mesa INT, IN p_fecha_hora DATETIME, OUT p_disponible BOOLEAN)
 DETERMINISTIC
 BEGIN

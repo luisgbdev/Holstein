@@ -3,6 +3,7 @@ repo_name: Holstein
 site_dir: public
 docs_dir: ../docs
 theme:
+  logo: images/cowicon.png
   language: ca
   name: material
   features:
@@ -20,21 +21,28 @@ theme:
 
   icon:
     repo: fontawesome/brands/git-alt
-    edit: material/pencil 
+    edit: material/pencil
+    site: fontawesome/solid/home  # Esto es opcional, puedes quitarlo si no lo necesitas
+
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: light green
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: light green
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-logo: images/icon.png
+
+extra_css:
+  - extra.css  
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -50,12 +58,13 @@ markdown_extensions:
   - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
-  - toc:                 
+  - toc:
       permalink: true
+
 plugins:
   - mkdocs-video
   - search:
-      lang: 
+      lang:
         - es
         - en
   - git-authors
@@ -71,32 +80,33 @@ nav:
   - Presentació: index.md
   - Documentació:
       - Apartado: documentacio/index.md
-      - Sprint 1: 
+      - Sprint 1:
           - Índex: documentacio/sprint1/test.md
-      - Sprint 2: 
+      - Sprint 2:
           - Índex: documentacio/sprint2/info3.md
-      - Sprint 3: 
+      - Sprint 3:
           - Índex: documentacio/sprint3/test2.md
   - Teoria GIT:
       - Git: git/git.md
-  - M01 Sistemas: 
+  - M01 Sistemas:
       - Apartado: sistemas_docs/sistemas.md
       - Sistemas:
-          - Docker: sistemas_docs/docker.md 
+          - Docker: sistemas_docs/docker.md
   - M02 Bases de datos:
       - Apartado: bbdd_docs/bbdd.md
-      - Bases de datos: 
+      - Bases de datos:
           - Script Inicial: bbdd_docs/script.md
-          - Funcions: bbdd_docs/funcions.md  
-          - Procedimientos: bbdd_docs/procedures.md 
-          - Consultas: bbdd_docs/consultas.md 
-  - M03 Programación: pr.md 
+          - Funcions: bbdd_docs/funcions.md
+          - Procedimientos: bbdd_docs/procedures.md
+          - Consultas: bbdd_docs/consultas.md
+  - M03 Programación: prog_docs/pr.md
+      - Apartado: prog_docs/pr.md
+      - Programación: 
+          - Queries: prog_docs/queries.md 
   - M04 Lenguaje de Marcas: lenguaje_docs/lenguajemarcas.md
-  - M05 Entornos de Desarollo :
-      - Apartado: entorns_docs/entorns.md 
+  - M05 Entornos de Desarollo:
+      - Apartado: entorns_docs/entorns.md
       - Entornos de Desarollo:
-          - Casos de uso: entorns_docs/casosdeuso.md 
-          - Diagrama de clases: entorns_docs/diagramaclases.md 
-          - Diagrama Entidad-Relación: entorns_docs/diagramaER.md 
-
-
+          - Casos de uso: entorns_docs/casosdeuso.md
+          - Diagrama de clases: entorns_docs/diagramaclases.md
+          - Diagrama Entidad-Relación: entorns_docs/diagramaER.md
