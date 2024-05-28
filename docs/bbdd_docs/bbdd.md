@@ -1,4 +1,8 @@
 # M02 Bases de Datos
+<<<<<<< HEAD
+## WIP
+### Work in progress
+=======
 
 ## Proyecto Holstein: Base de Datos Relacional
 
@@ -44,3 +48,4 @@ Además de los procedimientos almacenados, se han creado varias funciones para r
 - **Actualizar el stock de los productos después de hacer un plato**: Actualiza la cantidad de productos en stock después de preparar un plato.
 
 
+>>>>>>> 903eda54e7e345e22abfd0d58012e0fa19dc4397

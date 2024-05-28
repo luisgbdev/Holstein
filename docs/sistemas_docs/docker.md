@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# Docker
+=======
+>>>>>>> 903eda54e7e345e22abfd0d58012e0fa19dc4397
 
 1. **Construcción de la imagen Docker:**
 

@@ -1,5 +1,22 @@
 # M05 ENTORNOS DE DESARROLLO
 
+<<<<<<< HEAD
+Para el proyecto Holstein y correspondiente a la parte del módulo M05 hemos creado diversos diagramas que nos han facilitado el desarollo del aplicativo y la web para nuestro restaurante Holstein.
+
+Los objetivos eran los siguientes: 
+
+1. **Documentación con lenguaje marcado**
+ 
+2. **Incorporación de enlaces, imágenes y fragmentos de código**
+
+3. **Creación de Diagramas de flujo**
+    
+4. **Diagramas de Casos de uso**
+
+4. **Descripción de los pasos seguidos y de los diseños realizados**
+
+5. **Uso de metodologías ágiles**
+=======
 ## Funcionalidades del Restaurante Holstein
 
 En este apartado, abordamos las funcionalidades clave del restaurante Holstein, especializado en carnes, a través de una serie de artefactos que ayudan a comprender su operativa y estructura.
@@ -20,3 +37,4 @@ En resumen, a través de los casos de uso, el diagrama de clases y el diagrama E
 
 --- 
 
+>>>>>>> 903eda54e7e345e22abfd0d58012e0fa19dc4397
